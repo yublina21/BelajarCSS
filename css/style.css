@@ -44,3 +44,30 @@ p{
     width: 500px;
     background-color: rgb(24, 4, 43);
 }
+#biging {
+    width: 500px;
+    height: 200px;
+    color: aliceblue;
+    background-color: brown;
+    background-image: url("../images/coding1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+#biging h2{
+    text-align: center;
+    padding-top: 80px;
+}
+#bikinpattern{
+    width: 500px;
+    height: 200px;
+    color: rgb(230, 100, 14);
+    background-color: brown;
+    background-image: url("../images/pattern2.jpg");
+    border-radius: 20px;
+   background-repeat: repeat;
+}
+#bikinpattern h2{
+    text-align: center;
+    padding-top: 80px;
+}
+
