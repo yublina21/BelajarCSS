@@ -1,11 +1,13 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .container{
     width: 800px;
     background: grey;
     margin: 0 auto;
+    
 }
 #header{
     width: 100%;
@@ -20,6 +22,32 @@
 }
 #navigasi {
     width: 100%;
-    height: 50px;
     background-color: blue;
+}
+#navigasi ul li {
+    padding: 20px;
+    display: inline-block;
+    color: white;
+}
+#artikel {
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(216, 216, 148);
+    float: left;
+}
+#sidebar {
+    width: 300px;
+    padding: 20px;
+    background: rgb(216, 216, 148);
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#footer {
+    background: rgb(159, 206, 209);
+    padding: 20px;
+    text-align: center;
+    color: white;
+
 }
